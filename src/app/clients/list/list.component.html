@@ -54,10 +54,10 @@
             <td>{{ client.firstName }}</td>
             <td>{{ client.lastName }}</td>
             <td>{{ client.city }}</td>
-            <td><button class="btn btn-info btn-sm" (click)="onEdit(client.id)"><i class="fas fa-edit"></i></button>
+            <td><button class="btn btn-secondary btn-sm" (click)="onEdit(client.id)"><i class="fas fa-edit"></i> Edit</button>
             </td>
             <td><button class="btn btn-danger btn-sm" (click)="onDelete(client.id)"><i
-                  class="fas fa-trash-alt"></i></button></td>
+                  class="fas fa-trash-alt"></i> Delete</button></td>
           </tr>
         </tbody>
       </table>
